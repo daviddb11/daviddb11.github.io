@@ -1,11 +1,11 @@
-# Mi Portfolio como Data Scientist
+# Mi Portfolio como Data Scientist/ IA Developer
 
-Este es mi portfolio personal donde muestro mis proyectos y habilidades como Data Scientist.
+Este es mi portfolio personal donde muestro mis proyectos de Data Science y de Inteligencia Artificial.
 
 ## Proyectos destacados
-- Análisis de datos de ventas.
-- Modelo de predicción de clima.
-- Visualización de datos con Tableau.
+- Clasificación multi-etiqueta en entornos federados: MLFedAvg
+- Modelo de predicción de cáncer a partir de imágenes
+- Modelo de predicción de enfermedades 
 
 ## Contacto
-Puedes contactarme en: [tu-email@example.com](mailto:tu-email@example.com)
+Puedes contactarme en: [daviddelgadobejarano@gmail.com](mailto:daviddelgadobejarano@gmail.com)
