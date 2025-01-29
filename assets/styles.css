@@ -1,75 +1,64 @@
-/* Estilo general */
+/* Estilos básicos */
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f7f7f7;
-  color: #333;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-  font-size: 3rem;
-  color: #3498db;
-  margin-bottom: 20px;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
-p {
-  font-size: 1.2rem;
-  color: #555;
-  text-align: center;
-  line-height: 1.6;
-  margin-bottom: 30px;
-}
-
-/* Botón de llamada a la acción */
-.button {
-  background-color: #3498db;
-  color: white;
-  padding: 15px 30px;
-  font-size: 1rem;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  box-shadow: 0 5px 15px rgba(52, 152, 219, 0.2);
-  transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.button:hover {
-  background-color: #2980b9;
-  transform: translateY(-2px);
-}
-
-.button:active {
-  background-color: #1f618d;
-  transform: translateY(0);
-}
-
-/* Estilo de las imágenes */
-img {
-  max-width: 100%;
-  border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
-}
-
-/* Contenedor de la página */
+/* Contenedor principal */
 .container {
-  background-color: white;
-  padding: 40px;
-  border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  max-width: 800px;
-  width: 100%;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
+/* Header */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Navegación */
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Secciones */
+section {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #2c3e50;
+    color: white;
+    margin-top: 20px;
+}
