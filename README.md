@@ -1,4 +1,4 @@
-# Mi Portfolio como Data Scientist/ IA Developer
+# Mi Portfolio como Data Scientist/ AI Engineer
 
 Este es mi portfolio personal donde muestro mis proyectos de Data Science y de Inteligencia Artificial.
 
