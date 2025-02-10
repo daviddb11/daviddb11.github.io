@@ -190,14 +190,13 @@ así como de la investigación, desarrollo e innovación en estas áreas. Mi obj
 						del modelo predictivo más adecuado al problema. </h4>
 
 						<div class="row gtr-150" style="display: flex; align-items: flex-start;">
-							<div class="col-6 col-12-medium">
+							<div class="col-6 col-12-medium"><br>
 								<h2>Multi-label Federated Averaging (MLFedAvg)</h2>
 								<img src="images/MLFedAvg.png" alt="Diseño de identidad visual para [nombre de la marca]" class="imagen" style="margin-top: -7px;" />							</div>
 							<div class="col-6 col-12-medium">
 								<br>
-								<br>
-								<br><br>
-								<h4>MLFedAvg (Multi-label Federated Averaging) es una arquitectura basada en Redes Neuronales Feed-forward que combina el Aprendizaje Automático multi-etiqueta y el Aprendizaje Federado. Esta propuesta, presentada en mi Trabajo de Fin de Máster, permite entrenar modelos de IA de manera descentralizada,
+								<span class="salto-linea"><br></span><span class="salto-linea"><br></span><span class="salto-linea"><br></span>
+								<h4><br>MLFedAvg (Multi-label Federated Averaging) es una arquitectura basada en Redes Neuronales Feed-forward que combina el Aprendizaje Automático multi-etiqueta y el Aprendizaje Federado. Esta propuesta, presentada en mi Trabajo de Fin de Máster, permite entrenar modelos de IA de manera descentralizada,
 									 manteniendo los datos en sus ubicaciones originales. 
 							<h4> De esta forma, se ofrece una solución a problemas que surgen cuando se manejan múltiples etiquetas en la clasificación y además los datos involucrados  tienen carácter sensible, como ocurre, por ejemplo, en ámbitos sanitarios. </h4>
 							<h4>Frameworks: NumPy, Pandas, Matplotlib, Scikit-learn, Scikit-multilearn, Keras, Tensorflow.</h4>
@@ -222,23 +221,63 @@ así como de la investigación, desarrollo e innovación en estas áreas. Mi obj
 
 
 						<!--PROYECTO 2-->
-						<div class="row gtr-150" style="display: flex; align-items: flex-start; text-align: left;">
-							<div class="col-6 col-12-medium" style="flex: 0 0 50%; text-align: left;">								<br><br>
-								<h2>Hispathological Cancer Detection</h2>
-								<img src="images/images.jpg" alt="Diseño de identidad visual para [nombre de la marca]" class="imagen" style="margin-top: 22px; width: 70%; height: auto; margin-left: 70px;" />							</div>
-								<div class="col-6 col-12-medium">								<br><br><br>
-								<br>
-								<br>
-								<h4>Este proyecto nace como solución al reto de Kaggle "Hispathological Cancer Detection".
-									<br>
-									<h4>Por un lado, el Aprendizaje Federado <a href="https://arxiv.org/abs/1602.05629" target="_blank">nace de la mano de Google</a> para aumentar la privacidad de datos de carácter sensible cuando varias entidades (también llamadas clientes) desean entrenar conjuntamente un modelo de IA. Para lograrlo, descentraliza el proceso de entrenamiento del modelo, lo que permite que los datos permanezcan 
-									en sus ubicaciones originales, reduciendo así los riesgos asociados a la exposición de información sensible.</h4>
-									
-							</div>
 
-							<h4>Por otro lado, el Aprendizaje Automático multi-etiqueta surge como una extensión natural del ML más primitivo, permitiendo que cada instancia de datos pueda estar asociada con 
-							múltiples etiquetas o clases en lugar de una sola. 
-							<h4> De esta forma, al integrarlos en una arquitectura única, se ofrece una solución a problemas que surgen cuando se manejan múltiples etiquetas en la clasificación y además los datos involucrados  tienen carácter sensible, como ocurre, por ejemplo, en ámbitos sanitarios. </h4>
+						<style>
+							/* Estilo para pantallas de escritorio */
+							.imagen-destacada {
+							  margin-top: 22px;
+							  width: 70%;
+							  height: auto;
+							  margin-left: 70px;
+							  border-radius: 5px; /* Bordes redondeados */
+							  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+							
+							}
+						  
+							/* Estilo para pantallas móviles */
+							@media (max-width: 768px) {
+							  .imagen-destacada {
+								width: 70%; /* Cambia la anchura para pantallas pequeñas */
+								margin-left: 50px; /* Elimina el margen izquierdo en móviles */
+								border-radius: 5px; /* Bordes redondeados */
+								box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+
+
+							  }
+							}
+						  </style>
+						  
+						  <style>
+							/* Estilo para pantallas de escritorio */
+							.salto-linea {
+							  display: block; /* Asegura que <br> se mantenga como salto de línea en escritorio */
+							}
+						  
+							/* Estilo para pantallas móviles */
+							@media (max-width: 768px) {
+							  .salto-linea {
+								display: none; /* Elimina los saltos de línea en dispositivos móviles */
+							  }
+							}
+						  </style>
+						  
+
+						<div class="row gtr-150" style="display: flex; align-items: flex-start; text-align: left;">
+							<div class="col-6 col-12-medium" >
+							<br><br>								
+								<h2>Hispathological Cancer Detection</h2>
+
+								<img src="images/images.jpg" alt="Diseño de identidad visual para [nombre de la marca]" class="imagen-destacada" />							</div>
+								<div class="col-6 col-12-medium">
+									<br><span class="salto-linea"><br></span><span class="salto-linea"><br></span><span class="salto-linea"><br></span><span class="salto-linea"><br></span>
+								<h4>Este proyecto nace como solución al reto de Kaggle <a href="https://www.kaggle.com/competitions/histopathologic-cancer-detection" target="_blank"> "Hispathological Cancer Detection"</a>.
+								</h4>
+								<h4>En él, se desarrollan varios modelos de Red Neuronal Convolucional (CNN), entrenados por transferencia a partir del modelo VGG16, para identificar cáncer metastásico en pequeños fragmentos de imágenes tomadas de escáneres digitales de ganglios linfáticos.
+
+									<h4>Frameworks: NumPy, Pandas, Matplotlib, CV2, Scikit-learn, Scikit-multilearn, Keras, Tensorflow.</h4>
+								</h4>
+								<br>
+						
 						</div>
 						
 						<div class="contenedor-botones">
@@ -249,7 +288,7 @@ así como de la investigación, desarrollo e innovación en estas áreas. Mi obj
 
 					<div class="row gtr-150">
 						<div class="col-6 col-12-medium">
-							<img src="images/proyecto3.jpg" alt="Creación de página web para [nombre de la empresa]" />
+							<img src="images/proyecto3.jpg"  />
 						</div>
 						<div class="col-6 col-12-medium">
 							<header class="major">
