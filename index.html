@@ -286,29 +286,116 @@ así como de la investigación, desarrollo e innovación en estas áreas. Mi obj
 								<i class="fab fa-github"></i> <span>REPOSITORIO</span>
 							  </a>
 
+
+							  <style>
+								/* Estilo para pantallas de escritorio */
+								.imagen-destacada2 {
+								  margin-top: 22px;
+								  width: 100%;
+								  height: auto;
+								  margin-left: 0px;
+								  border-radius: 5px; /* Bordes redondeados */
+								  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+								
+								}
+							  
+								/* Estilo para pantallas móviles */
+								@media (max-width: 768px) {
+								  .imagen-destacada2 {
+									width: 100%; /* Cambia la anchura para pantallas pequeñas */
+									margin-left: 0px; /* Elimina el margen izquierdo en móviles */
+									border-radius: 5px; /* Bordes redondeados */
+									box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+	
+	
+								  }
+								}
+							  </style>
+
 				<div class="row gtr-150" style="display: flex; align-items: flex-start; text-align: left;">
 							<div class="col-6 col-12-medium" >
-							<br><br>								
-								<h2>Hispathological Cancer Detection</h2>
+							<br>								
+								<h2>Predicción de reingreso de pacientes</h2>
 
-								<img src="images/images.jpg" alt="Diseño de identidad visual para [nombre de la marca]" class="imagen-destacada" />							</div>
+								<img src="images/readm.png" alt="Diseño de identidad visual para [nombre de la marca]" class="imagen-destacada2" />							</div>
 								<div class="col-6 col-12-medium">
 									<br><span class="salto-linea"><br></span><span class="salto-linea"><br></span><span class="salto-linea"><br></span><span class="salto-linea"><br></span>
-								<h4>Este proyecto nace como solución al reto de Kaggle <a href="https://www.kaggle.com/competitions/histopathologic-cancer-detection" target="_blank"> "Hispathological Cancer Detection"</a>.
+								
+									<h4>Este proyecto tiene como objetivo predecir si un paciente diabético, al que se le da el alta hospitalaria, será reingresado en el futuro. Utilizando técnicas de Machine Learning, el modelo analiza datos históricos de pacientes para hacer predicciones sobre su probabilidad de reingreso. Así, se permite mejorar la atención que reciben los pacientes una vez que ingresan por primera vez, evitando altas erróneas y optimizando recursos hospitalarios.</a>
 								</h4>
-								<h4>En él, se desarrollan varios modelos de Red Neuronal Convolucional (CNN) mediante transfer learning, utilizando  <a href="https://arxiv.org/abs/1512.03385" target="_blank">ResNet-50</a>  como modelo base, para identificar cáncer metastásico en pequeños fragmentos de imágenes tomadas de escáneres digitales de ganglios linfáticos.
-
-									<h4>Frameworks: NumPy, Pandas, Matplotlib, CV2, Scikit-learn, Keras, Tensorflow.</h4>
+								<h4>Primero se procesan los datos, luego se realiza una selección de características y por último se selecciona el mejor modelo de 
+									los tres que se entrenan: Logistic Regression Multinomial, Random Forest y Árbol de Decisión.
+									
+									
+								
 								</h4>
-								<br>
+									<h4>Frameworks: Pandas, Matplotlib, Seaborn, Scikit-learn.</h4>
+								</h4>
+								
 						
 						</div>
 						
-						<div class="contenedor-botones">
+						<style>
+							.boton-personalizado2 {
+								-moz-appearance: none;
+								-webkit-appearance: none;
+								-ms-appearance: none;
+								appearance: none;
+								-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+								-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+								-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+								transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+								background-color: transparent;
+								border-radius: 4px;
+								border: 0;
+								box-shadow: inset 0 0 0 1px rgba(144, 144, 144, 0.5);
+								color: #fdfdfd !important;
+								cursor: pointer;
+								display: inline-block;
+								font-size: 0.9em;
+								font-weight: 400;
+								height: 2.75em;
+								letter-spacing: 0.125em;
+								line-height: 2.75em;
+								padding: 0 2em;
+								text-align: center;
+								text-decoration: none;
+								text-indent: 0.125em;
+								text-transform: uppercase;
+								white-space: nowrap;
+								width: 100%; /* Hace que el botón ocupe todo el ancho de la pantalla */
+							}
+						
+							/* Estilos para móvil */
+							@media (max-width: 767px) {
+								.contenedor-botones2 {
+									display: flex;
+									flex-direction: column;
+									align-items: center;
+									gap: 20px;
+									width: 100%; /* Asegura que el contenedor ocupe el 100% */
+								}
+						
+								.boton-personalizado2 {
+									width: 100%; /* El botón ocupa todo el ancho en móviles */
+									margin: 0 auto; /* Centra el botón */
+								}
+							}
+						
+							/* Estilos para escritorio */
+							@media (min-width: 768px) {
+								.boton-personalizado2 {
+									width: 100%; /* En escritorio también ocupa todo el ancho */
+								}
+							}
+						</style>
+
+						<div class="contenedor-botones2">
 							<!-- Botón para ir al repositorio de GitHub -->
-							<a href="https://github.com/daviddb11/cancer-cnn/tree/main" class="boton-personalizado" target="_blank">
-								<i class="fab fa-github"></i> <span>REPOSITORIO</span>
-							  </a>
+							<a href="https://github.com/daviddb11/readmission-predictor" class="boton-personalizado2" target="_blank">
+							  <i class="fab fa-github"></i> <span>REPOSITORIO</span>
+							</a><br><br>
+						  </div>
 			</section>
 
 		<!-- Three -->
